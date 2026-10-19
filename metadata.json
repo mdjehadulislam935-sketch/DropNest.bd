@@ -1,0 +1,8 @@
+{
+  "name": "DropNest — Bangladesh Dropshipping & Reseller Platform",
+  "description": "DropNest is a high-performance, secure, multi-panel dropshipping and reseller platform built for the Bangladesh e-commerce ecosystem.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

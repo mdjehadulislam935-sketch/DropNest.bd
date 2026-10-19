@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --bg-main: #080611;
+    --bg-content: #100D1B;
+    --bg-sidebar: #0D0A17;
+    --bg-card: #171226;
+    --primary-purple: #7C3AED;
+    --secondary-purple: #A855F7;
+    --accent-pink: #EC4899;
+    --cyan-accent: #22D3EE;
+    --text-primary: #FFFFFF;
+    --text-secondary: #C9C4D6;
+    --border-color: #302741;
+    --status-success: #34D399;
+    --status-warning: #FBBF24;
+    --status-error: #F87171;
+  }
+
+  body {
+    background-color: var(--bg-main);
+    color: var(--text-primary);
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+
+  .font-mono, .tabular-nums {
+    font-family: 'JetBrains Mono', monospace;
+    font-variant-numeric: tabular-nums;
+  }
+}
+
+/* Custom scrollbars for dashboard and tabs */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #080611;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #302741;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #7C3AED;
+}
