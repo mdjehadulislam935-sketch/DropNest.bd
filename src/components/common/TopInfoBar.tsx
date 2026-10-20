@@ -19,8 +19,8 @@ export const TopInfoBar: React.FC = () => {
     : formatBangladeshDateTime(new Date());
 
   return (
-    <div className="w-full bg-[#0D0A17] border-b border-[#302741] px-4 py-1.5 text-xs text-[#C9C4D6] flex items-center justify-between overflow-x-auto whitespace-nowrap shadow-sm z-20">
-      <div className="flex items-center gap-2 mx-auto sm:mx-0">
+    <div className="w-full max-w-full bg-[#0D0A17] border-b border-[#302741] px-4 py-1.5 text-xs text-[#C9C4D6] flex flex-wrap sm:flex-nowrap items-center justify-between gap-2 overflow-x-hidden shadow-sm z-20">
+      <div className="flex flex-wrap items-center gap-1.5 sm:gap-2 mx-auto sm:mx-0 text-[11px] sm:text-xs">
         <span className="font-medium text-[#FFFFFF]">User:</span>
         <span className="text-[#A855F7] font-semibold">{user.fullName}</span>
         <span className="text-[#302741]">|</span>
